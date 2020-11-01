@@ -48,7 +48,6 @@ public class Bingo {
                     list.set(index, " X ");
                     for (int j = 0; j < 5; j++) {
                         for (int k = 0; k < 5; k++) {
-                            //System.out.format("%3s     ", list.get(j * 5 + k));
                             System.out.format("%3s     ", list.get(j * 5 + k));
                             
                         }
